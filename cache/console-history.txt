@@ -1,0 +1,19 @@
+}
+  }
+    console.log(fn.name, iface.getFunction(fn.name).selector)
+  if (fn.type === 'function') {
+for (const fn of Object.values(iface.fragments)) {
+const iface = Election.interface
+const Election = await ethers.getContractFactory("Election")
+await election.registerVoter("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266")
+await election.openElection()
+await election.addCandidate("Eve Joseph", "Cultural Lead")
+await election.addCandidate("David Mathew", "Secretary")
+await election.addCandidate("Carol Thomas", "Secretary")
+await election.addCandidate("Bob Nair", "President")
+await election.addCandidate("Alice Kumar", "President")
+await election.addPosition("Cultural Lead")
+await election.addPosition("Secretary")
+await election.addPosition("President")
+const election = await Election.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3")
+const Election = await ethers.getContractFactory("Election")
